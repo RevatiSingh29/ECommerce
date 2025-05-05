@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 
 // Database connection
-mongoose.connect("mongodb+srv://revatisingh29:r2926evati@ecom.zsuwqxt.mongodb.net/?retryWrites=true&w=majority&appName=ECom");
+mongoose.connect("mongodb+srv://revatisingh29:<pass>@ecom.zsuwqxt.mongodb.net/?retryWrites=true&w=majority&appName=ECom");
 
 // Ensure the 'upload/images' directory exists
 const uploadDir = path.join(__dirname, 'upload', 'images');
